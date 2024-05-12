@@ -4,7 +4,9 @@ public class Room {
     private String roomNumber;
     private String type;
     private boolean isAvailable;
+    public Room() {
 
+    }
     public Room(String roomNumber, String type, boolean isAvailable) {
         this.roomNumber = roomNumber;
         this.type = type;

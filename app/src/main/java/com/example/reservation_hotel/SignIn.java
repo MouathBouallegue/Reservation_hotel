@@ -44,7 +44,7 @@ public class SignIn extends AppCompatActivity {
                             Toast.makeText(this, "Sign in success", Toast.LENGTH_SHORT).show();
                             // Navigate to the main activity or another activity
                             // For example, navigate to the MainActivity
-                            Intent intent = new Intent(this, HomeCopy.class);
+                            Intent intent = new Intent(this,Home.class);
                             startActivity(intent);
                             finish();
                         }
